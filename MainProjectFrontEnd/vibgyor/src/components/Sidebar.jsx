@@ -46,11 +46,13 @@ const Sidebar = () => {
     <>
       <div className="mobile-menu-toggle" onClick={toggleMobileMenu}>
         {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
+        {/* <link rel="stylesheet" href="css/sidebar.css"> */}
+        {/* <link rel="stylesheet" href="css/sidebar-responsive.css"></link> */}
       </div>
 
       <div className={`sidebar ${isMobileMenuOpen ? "mobile-open" : ""}`}>
         <div className="sidebar-header">
-          <h2>Vibgyor HRMS</h2>
+          <h2>Vibgyor</h2>
           <div className="user-info">
             <FaUserCircle className="user-icon" />
             <div>

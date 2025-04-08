@@ -22,30 +22,30 @@
   .balance-card {
     display: flex;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #191818;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   }
   
   .balance-card.annual {
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #cd2aa9;
   }
   
   .balance-card.sick {
-    border-left: 4px solid #e74c3c;
+    border-left: 4px solid #cd2aa9;
   }
   
   .balance-card.casual {
-    border-left: 4px solid #f39c12;
+    border-left: 4px solid #cd2aa9;
   }
   
   .balance-card.unpaid {
-    border-left: 4px solid #95a5a6;
+    border-left: 4px solid #cd2aa9;
   }
   
   .balance-icon {
-    background-color: #f5f7fa;
+    background-color: #e7f1f1;
     width: 40px;
     height: 40px;
     border-radius: 8px;
@@ -57,7 +57,7 @@
   }
   
   .balance-card.annual .balance-icon {
-    color: #3498db;
+    color: #e6ecf0;
   }
   
   .balance-card.sick .balance-icon {
@@ -75,22 +75,22 @@
   .balance-details h3 {
     margin: 0 0 5px 0;
     font-size: 0.9rem;
-    color: #7f8c8d;
+    color: #e8efef;
   }
   
   .balance-value {
     margin: 0;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #2c3e50;
+    color: #eef2f6;
   }
   
   .apply-leave-btn {
     display: flex;
     align-items: center;
     gap: 8px;
-    background-color: #3498db;
-    color: white;
+    background-color: #030303;
+    color: #cd2aa9;
     border: none;
     border-radius: 6px;
     padding: 10px 20px;
@@ -100,11 +100,11 @@
   }
   
   .apply-leave-btn:hover {
-    background-color: #2980b9;
+    background-color: #141415;
   }
   
   .leave-form-container {
-    background-color: #ffffff;
+    background-color: #090909;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
@@ -113,8 +113,8 @@
   .leave-form-container h3 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: #2c3e50;
-    border-bottom: 1px solid #ecf0f1;
+    color: #e9eef4;
+    border-bottom: 1px solid #070707;
     padding-bottom: 10px;
   }
   
@@ -138,7 +138,7 @@
   .form-group label {
     font-size: 0.9rem;
     margin-bottom: 5px;
-    color: #2c3e50;
+    color: #e3ebf4;
   }
   
   .form-group input,
@@ -153,22 +153,22 @@
   .form-group input:focus,
   .form-group select:focus,
   .form-group textarea:focus {
-    border-color: #3498db;
+    border-color: #181919;
     outline: none;
   }
   
   .form-group small {
     font-size: 0.8rem;
-    color: #7f8c8d;
+    color: #cd2aa9;
     margin-top: 5px;
   }
   
   .days-calculation {
-    background-color: #f5f7fa;
+    background-color: #1b1c1c;
     padding: 10px;
     border-radius: 4px;
     font-size: 0.9rem;
-    color: #2c3e50;
+    color: #e7eef6;
   }
   
   .form-actions {
@@ -187,19 +187,19 @@
   }
   
   .cancel-btn {
-    background-color: #ecf0f1;
+    background-color: #060606;
     border: 1px solid #ddd;
-    color: #7f8c8d;
+    color: #cd2aa9;
   }
   
   .submit-btn {
-    background-color: #3498db;
+    background-color: #cd2aa9;
     border: none;
     color: white;
   }
   
   .submit-btn:hover {
-    background-color: #2980b9;
+    background-color: #cd2aa9;
   }
   
   .leave-requests-section {
